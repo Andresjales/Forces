@@ -171,15 +171,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xBorder: 4.5
   yBorder: 4.5
-  velocity: {x: 0, y: 0, z: 0}
+  velocity: {x: -2, y: 2, z: 0}
   mass: 50
   gravity: 0
   frictionCoefficient: 0
   speedLose: 0.5
   fluid: 0
   dragCoefficient: 0
-  atraction: 0
-  g: 1
+  atraction: 1
+  g: 0
   otherStar: {fileID: 1988899229}
 --- !u!135 &283093791
 SphereCollider:
@@ -774,8 +774,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xBorder: 4.5
   yBorder: 4.5
-  velocity: {x: 2, y: -2, z: 0}
-  mass: 1
+  velocity: {x: -2, y: -1, z: 0}
+  mass: 10
   gravity: 0
   frictionCoefficient: 0
   speedLose: 0.5

@@ -37,7 +37,6 @@ public class Forces : MonoBehaviour
     {
         weight = new Vector3(0, mass * gravity, 0);
         frontalArea = transform.localScale.x;
-        starDistance = otherStar.transform.position - transform.position;
         m2 = otherStar.GetComponent<Forces>();
     }
 
@@ -45,6 +44,7 @@ public class Forces : MonoBehaviour
     {
         if(atraction)
         {
+            starDistance = otherStar.transform.position - transform.position;
             GravityAtraction();
         }
         else
