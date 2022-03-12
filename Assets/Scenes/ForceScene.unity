@@ -402,7 +402,7 @@ MonoBehaviour:
   dragCoefficient: 0.8
   atraction: 0
   g: 0
-  otherStar: {fileID: 0}
+  otherStar: {fileID: 822986871}
 --- !u!65 &685713517
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -600,7 +600,7 @@ MonoBehaviour:
   dragCoefficient: 0
   atraction: 0
   g: 0
-  otherStar: {fileID: 0}
+  otherStar: {fileID: 685713515}
 --- !u!1 &1265462317
 GameObject:
   m_ObjectHideFlags: 0
